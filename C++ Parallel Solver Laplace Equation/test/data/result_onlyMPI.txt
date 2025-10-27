@@ -1,0 +1,102 @@
+============================================================
+Scalability Test
+============================================================
+
+1 PROCESS
+
+===========================================================
+Grid size: 16x16
+===========================================================
+Solution computed with 1 rank(s) in 96 iterations
+Error between approximate and exact solution (L2 norm): 0.267283
+Time elapsed (on rank 0). 3.455000e+02 microsec
+===========================================================
+Grid size: 32x32
+===========================================================
+Solution computed with 1 rank(s) in 323 iterations
+Error between approximate and exact solution (L2 norm): 2.029686e-01
+Time elapsed (on rank 0). 5.226700e+03 microsec
+===========================================================
+Grid size: 64x64
+===========================================================
+Solution computed with 1 rank(s) in 1082 iterations
+Error between approximate and exact solution (L2 norm): 1.422256e-01
+Time elapsed (on rank 0). 6.739370e+04 microsec
+===========================================================
+Grid size: 128x128
+===========================================================
+Solution computed with 1 rank(s) in 3488 iterations
+Error between approximate and exact solution (L2 norm): 1.036868e-01
+Time elapsed (on rank 0). 9.080721e+05 microsec
+===========================================================
+Grid size: 256x256
+===========================================================
+Solution computed with 1 rank(s) in 10544 iterations
+Error between approximate and exact solution (L2 norm): 3.066336e-01
+Time elapsed (on rank 0). 1.082631e+07 microsec
+
+2 PROCESSES
+
+===========================================================
+Grid size: 16x16
+===========================================================
+Solution computed with 2 rank(s) in 81 iterations
+Error between approximate and exact solution (L2 norm): 0.0271469
+Time elapsed (on rank 0). 2.510000e+02 microsec
+===========================================================
+Grid size: 32x32
+===========================================================
+Solution computed with 2 rank(s) in 293 iterations
+Error between approximate and exact solution (L2 norm): 2.893010e-03
+Time elapsed (on rank 0). 2.654800e+03 microsec
+===========================================================
+Grid size: 64x64
+===========================================================
+Solution computed with 2 rank(s) in 994 iterations
+Error between approximate and exact solution (L2 norm): 2.493449e-02
+Time elapsed (on rank 0). 3.727030e+04 microsec
+===========================================================
+Grid size: 128x128
+===========================================================
+Solution computed with 2 rank(s) in 3177 iterations
+Error between approximate and exact solution (L2 norm): 1.142516e-01
+Time elapsed (on rank 0). 4.360228e+05 microsec
+===========================================================
+Grid size: 256x256
+===========================================================
+Solution computed with 2 rank(s) in 9361 iterations
+Error between approximate and exact solution (L2 norm): 4.653446e-01
+Time elapsed (on rank 0). 5.871269e+06 microsec
+
+4 PROCESSES
+
+===========================================================
+Grid size: 16x16
+===========================================================
+Solution computed with 4 rank(s) in 78 iterations
+Error between approximate and exact solution (L2 norm): 0.0267049
+Time elapsed (on rank 0). 4.458000e+02 microsec
+===========================================================
+Grid size: 32x32
+===========================================================
+Solution computed with 4 rank(s) in 277 iterations
+Error between approximate and exact solution (L2 norm): 2.816224e-04
+Time elapsed (on rank 0). 3.085100e+03 microsec
+===========================================================
+Grid size: 64x64
+===========================================================
+Solution computed with 4 rank(s) in 927 iterations
+Error between approximate and exact solution (L2 norm): 3.611840e-02
+Time elapsed (on rank 0). 2.830200e+04 microsec
+===========================================================
+Grid size: 128x128
+===========================================================
+Solution computed with 4 rank(s) in 2901 iterations
+Error between approximate and exact solution (L2 norm): 1.606459e-01
+Time elapsed (on rank 0). 3.533496e+05 microsec
+===========================================================
+Grid size: 256x256
+===========================================================
+Solution computed with 4 rank(s) in 8233 iterations
+Error between approximate and exact solution (L2 norm): 6.555570e-01
+Time elapsed (on rank 0). 4.688635e+06 microsec

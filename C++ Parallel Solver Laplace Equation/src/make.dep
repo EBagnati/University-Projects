@@ -1,0 +1,52 @@
+Matrix.o: Matrix.cpp Matrix.hpp
+Parameters.o: Parameters.cpp Parameters.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserInterface.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParser.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBase.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserDef.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserFixes.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTokenReader.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserToken.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserError.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserCallback.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBytecode.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTemplateMagic.h \
+ helper.hpp Matrix.hpp ../include/GetPot
+helper.o: helper.cpp helper.hpp Matrix.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserInterface.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParser.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBase.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserDef.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserFixes.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTokenReader.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserToken.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserError.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserCallback.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBytecode.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTemplateMagic.h
+main.o: main.cpp solveJacobi.hpp Matrix.hpp Parameters.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserInterface.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParser.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBase.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserDef.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserFixes.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTokenReader.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserToken.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserError.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserCallback.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBytecode.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTemplateMagic.h \
+ helper.hpp ../include/GetPot ../include/chrono.hpp
+solveJacobi.o: solveJacobi.cpp solveJacobi.hpp Matrix.hpp Parameters.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserInterface.hpp \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParser.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBase.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserDef.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserFixes.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTokenReader.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserToken.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserError.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserCallback.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserBytecode.h \
+ /home/ebagnati/GitHub/pacs-examples/Examples/include/muParserTemplateMagic.h \
+ helper.hpp ../include/GetPot ../include/chrono.hpp

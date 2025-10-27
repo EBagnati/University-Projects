@@ -1,0 +1,24 @@
+# ============================================================
+# TEXT FILE TO SET THE PARAMETERS OF THE PROBLEM
+# ============================================================
+
+# Tolerance for the convergence criterion
+tol = 1e-4
+
+# Maximum number of iterations
+max_iter = 20000
+
+# Forcing term
+f = 8*pi*pi*sin(2*pi*x)*sin(2*pi*y)
+
+# Dirichlet boundary conditions
+g = 0*x*y
+
+# Exact solution
+u_ex = sin(2*pi*x)*sin(2*pi*y)
+
+
+
+
+
+
